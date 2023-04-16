@@ -45,7 +45,7 @@ body {
 
 /*hero section background in mobile*/
 .hero-one{
-  min-height: 70vh;
+  min-height: 50vh;
    background: linear-gradient(rgb(214, 99, 99), transparent),url('/public/bookshelf4.jpg');
    background-size: cover;
    background-repeat: no-repeat;
