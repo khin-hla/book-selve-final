@@ -2,19 +2,19 @@ const bookContainer = document.querySelector('#books-container');
 
 let books = [
   {
-    image: "/public/it-ends.jpg",
+    image: "/it-ends.jpg",
     id:1 
   },
   {
-    image: "/public/something-dh.jpg",
+    image: "/something-dh.jpg",
     id:2 
   },
   {
-    image: "/public/clean-coder.jpg",
+    image: "/clean-coder.jpg",
     id:3 
   },
   {
-    image: "/public/head-first.jpeg",
+    image: "/head-first.jpeg",
     id:4 
   },
 ];
