@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bookshelf</title>
+  </head>
+  <body>
+    <!--Main section-->
+    <main class="after-sign">
+
+      <!--Left Sidebar-->
+      <aside class="aside">
+        <h1>Categories</h1>
+        <ul class="categories-container">
+          <li>Home</li>
+          <li>My Favorite</li>
+          <li>My Note</li>
+        </ul>
+      </aside>
+
+      <!--nav bar-->
+      <div class="sm:container-div">
+        <nav class="w-full">
+          <div class="navbar bg-base-100">
+              <div class="gap-2">
+                <div class="sm:hidden burger cursor-pointer">
+                  <i class="fa-solid fa-bars"></i>
+                </div>
+                <h2 class=" normal-case font-bold text-2xl ml-3">Welcome to Bookshelf</h2>
+              </div>
+             
+            </div>
+      </nav>
+
+      <!--main content (hero section)-->
+      <section class="sm:hero-section hero-one max-w-full sm:px-16 relative">
+        <!--sidebar in Mobile-->
+        <aside class="mobile-sidebar sm:hidden h-screen bg-slate-100 px-3 absolute top-0 w-1/2">
+          <h1 class="font-bold text-xl">Categories</h1>
+          <ul class="side-list">
+            <li>Home</li>
+            <li>My Favorite</li>
+            <li>My Note</li>
+            <li>Recent Reading</li>
+          </ul>
+        </aside>
+          <h1 class="sm:search-title text-xl font-bold text-center pt-12">Search Your Choice Here</h1>
+          <p class="sm:text-2xl search-content px-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Quod est, <br> veniam eaque laudantium voluptas perspiciatis rerum,
+           totam numquam deleniti labore <br> dolor ducimus accusantium provident
+            ad, libero ipsa inventore! Corrupti, nisi.
+          </p>
+          <div class="input-section sm:w-1/2">
+            <input type="search" id="search" placeholder="Type to search here..." class=" sm:px-28 py-4 text-center">
+            <div class="bg-white items-center flex justify-center sm:px-6 px-2"><i class="fa-solid fa-magnifying-glass"></i></div>
+        </div>
+      </section>
+
+      <!--book recommending section-->
+      <section class=" w-full mt-10">
+        <h1 class="text-3xl font-bold ml-4">Try These Books</h1>
+        <div id="books-container" class="flex justify-center flex-wrap gap-6 mt-12"></div>
+      </section>
+      
+      </div>
+    </main>
+
+    <!--footer-->
+    <footer class="footer footer-center p-4 bg-base-300 text-base-content">
+      <div>
+        <p>Copyright © 2023 - All right reserved by ACME Industries Ltd</p>
+      </div>
+    </footer>
+    
+    <script type="module" src="/main.js"></script>
+    <script type="module" src="/src/home.js"></script>
+    <script type="module" src="/src/after-sign.js"></script>
+  </body>
+</html>

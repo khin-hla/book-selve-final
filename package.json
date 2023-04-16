@@ -1,0 +1,21 @@
+{
+  "name": "book-selve-final",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.2.7",
+    "vite": "^4.2.0"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.4.0",
+    "daisyui": "^2.51.5"
+  }
+}
