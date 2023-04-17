@@ -19,7 +19,7 @@
   }
 
   .input-section{
-    @apply mt-10 w-1/3 flex justify-center mx-auto;
+    @apply my-8  w-1/3 flex justify-center mx-auto;
   }
 
   .try-section{
